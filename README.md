@@ -16,7 +16,16 @@
 
 ### 接口
 
-- 获取当页所有频道
-- 获取频道当页所有声音
-- 获取用户当页所有声音
-- 获取声音详情
+#### get /channel/list 获取当页所有频道
+接收 get 参数
+- nowPage Number 页数
+
+#### get /channel/:id 获取频道当页所有声音
+接收 get 参数
+- nowPage Number 页数
+
+#### get /user/:id 获取用户当页所有声音
+接收 get 参数
+- nowPage Number 页数
+
+#### get /sound/:id 获取声音详情
